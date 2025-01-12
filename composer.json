@@ -1,5 +1,5 @@
 {
-    "name": "mama-laka/payment-sdk",
+    "name": "mama-laka-hub-spoke/payment-sdk",
     "description": "A PHP SDK for processing payments with Mamlaka.",
     "type": "library",
     "license": "MIT",
