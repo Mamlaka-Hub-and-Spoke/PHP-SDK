@@ -5,10 +5,10 @@ require '../vendor/autoload.php';
 use Mamlaka\MamlakaAPI;
 
 $api = new MamlakaAPI('production');
-$response1 = $api->getToken('CometAppMain', 'cometappmain');
+$response1 = $api->getToken('username', 'password');
 if(!$response1['error']){
     $response = $api->initiateMobilePayment(
-        'Test1aBCDEFGHIJKLMmamlaka',
+        'merhcantid',
         'KES',
         1.0,
         '254768899729',

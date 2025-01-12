@@ -76,6 +76,7 @@ class MamlakaAPITest extends TestCase
     protected function tearDown(): void
     {
         // Clean up after each test
+        
         unset($this->api);
     }
 }
