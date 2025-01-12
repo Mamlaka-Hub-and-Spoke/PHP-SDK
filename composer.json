@@ -1,0 +1,24 @@
+{
+    "name": "mama-laka/payment-sdk",
+    "description": "A PHP SDK for processing payments with Mamlaka.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "colls codes",
+            "email": "collins@mam-laka.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mamlaka\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
